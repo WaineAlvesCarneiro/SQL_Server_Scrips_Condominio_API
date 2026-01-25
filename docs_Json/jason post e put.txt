@@ -1,0 +1,58 @@
+Gerar Token
+{
+  "username": "Admin",
+  "password": "12345"
+}
+
+Post Imovel
+{
+    "Bloco": "01",
+    "Apartamento": "101",
+    "BoxGaragem": "224"
+}
+
+Post Morador
+{
+  "Nome": "Waine",
+  "Celular": "62 00000-0000",
+  "Email": "w@gmail.com",
+  "IsProprietario": true,
+  "DataEntrada": "2025-08-01",
+  "DataSaida": null,
+  "DataInclusao": "2025-08-01",
+  "DataAlteracao": null,
+  "ImovelId": 1
+}
+
+Post Morador
+{
+  "Nome": "Joazinho",
+  "Celular": "62 00000-0000",
+  "Email": "joao@gmail.com",
+  "IsProprietario": true,
+  "DataEntrada": "2025-08-01",
+  "DataSaida": null,
+  "DataInclusao": "2025-08-01",
+  "DataAlteracao": null,
+   "ImovelId": 1
+}
+
+Put Morador
+{
+ "Id": 1,
+ "Nome": "Waine Editado",
+ "Celular": "62 99999-9999",
+ "Email": "waine@gmail.com",
+ "IsProprietario": true,
+ "DataEntrada": "2025-08-01",
+ "DataSaida": "2025-08-08",
+ "DataInclusao": "2025-08-01",
+ "DataAlteracao": "2025-08-08",
+ "ImovelId": 1,
+ "Imovel": {
+  "Id": 1,
+  "Bloco": "01",
+  "Apartamento": "102",
+  "BoxGaragem": "223"
+ }
+}
