@@ -14,3 +14,7 @@ GO
 INSERT INTO AuthUsers (EmpresaId, UserName, PasswordHash, Role)
 VALUES (0, 'Admin', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxIDXWG', 'Suporte');
 GO
+
+INSERT INTO AuthUsers (EmpresaId, UserName, PasswordHash, Role)
+VALUES (1, 'Sindico', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxIDXWG', 'Sindico');
+GO
