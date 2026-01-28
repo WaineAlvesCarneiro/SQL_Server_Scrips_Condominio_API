@@ -20,5 +20,9 @@ VALUES (1, 'Sindico', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxID
 GO
 
 INSERT INTO AuthUsers (EmpresaId, UserName, PasswordHash, Role)
-VALUES (2, 'DoisSindico', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxIDXWG', 'Sindico');
+VALUES (1, 'Porteiro', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxIDXWG', 'Porteiro');
+GO
+
+INSERT INTO AuthUsers (EmpresaId, UserName, PasswordHash, Role)
+VALUES (1, 'Waine', '$2a$12$GBHAUIYniuJbzB/tgW.eV.kNLsmOY7ajlRwMcMvzgj0GdlrxIDXWG', 'Waine');
 GO

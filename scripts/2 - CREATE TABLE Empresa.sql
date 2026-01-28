@@ -28,6 +28,13 @@ GO
 INSERT INTO dbo.Empresa(RazaoSocial,Fantasia,Cnpj,TipoDeCondominio,Nome,Celular
     ,Telefone,Email,Senha,Host,Porta,Cep,Uf,Cidade,Endereco,Complemento,DataInclusao,DataAlteracao)
 VALUES
-('Meu Condomínio Ltda','Meu Condomínio','99999999999999',2,'Nome Resposável','62999999999','62999999999',
+('Casas Condomínio Ltda','Casa Condomínio','99999999999999',1,'Nome Resposável','62999999999','62999999999',
+    'enviaemailwebapi@gmail.com',null,'smtp.gmail.com',587,'74843140','GO','Goiânia','Rua Macéio','Qd 130','2026-01-23 17:51:47.9210000',NULL)
+GO
+
+INSERT INTO dbo.Empresa(RazaoSocial,Fantasia,Cnpj,TipoDeCondominio,Nome,Celular
+    ,Telefone,Email,Senha,Host,Porta,Cep,Uf,Cidade,Endereco,Complemento,DataInclusao,DataAlteracao)
+VALUES
+('Apartamento Condomínio Ltda','Apto Condomínio','99999999999999',2,'Nome Resposável','62999999999','62999999999',
     'enviaemailwebapi@gmail.com',null,'smtp.gmail.com',587,'74843140','GO','Goiânia','Rua Macéio','Qd 130','2026-01-23 17:51:47.9210000',NULL)
 GO
