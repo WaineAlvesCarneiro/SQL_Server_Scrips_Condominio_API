@@ -2,9 +2,9 @@ IF OBJECT_ID('[dbo].[Morador]', 'U') IS NULL
 BEGIN
     CREATE TABLE [dbo].[Morador] (
         [Id]             BIGINT IDENTITY(1,1) NOT NULL,
-        [Nome]           VARCHAR(255) NOT NULL,
-        [Celular]        VARCHAR(255) NOT NULL,
-        [Email]          VARCHAR(255) NOT NULL,
+        [Nome]           VARCHAR(100) NOT NULL,
+        [Celular]        VARCHAR(16) NOT NULL,
+        [Email]          VARCHAR(100) NOT NULL,
         [IsProprietario] BIT NOT NULL,
         [DataEntrada]    DATE NOT NULL,
         [DataSaida]      DATE NULL,

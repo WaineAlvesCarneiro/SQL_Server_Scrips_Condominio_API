@@ -5,7 +5,7 @@ BEGIN
         [EmpresaId]    BIGINT NOT NULL,
         [UserName]     VARCHAR(100)     NOT NULL CONSTRAINT UQ_AuthUsers_UserName UNIQUE,
         [PasswordHash] NVARCHAR(MAX)    NOT NULL,
-        [Role]         VARCHAR(50)      NOT NULL,
+        [Role]         VARCHAR(100)      NOT NULL,
         [Dt_Criacao]   DATETIMEOFFSET   NOT NULL CONSTRAINT DF_AuthUsers_Dt_Criacao DEFAULT SYSDATETIMEOFFSET()
     );
 END
