@@ -2,7 +2,7 @@ IF OBJECT_ID('[dbo].[AuthUsers]', 'U') IS NULL
 BEGIN
     CREATE TABLE [dbo].[AuthUsers] (
         [Id]           UNIQUEIDENTIFIER CONSTRAINT PK_AuthUsers PRIMARY KEY DEFAULT NEWSEQUENTIALID(),
-        [EmpresaId]    BIGINT NOT NULL,
+        [EmpresaId]    BIGINT NULL,
         [UserName]     VARCHAR(100)     NOT NULL CONSTRAINT UQ_AuthUsers_UserName UNIQUE,
         [PasswordHash] NVARCHAR(MAX)    NOT NULL,
         [Role]         VARCHAR(100)      NOT NULL,
