@@ -8,6 +8,7 @@ BEGIN
         [PasswordHash]    NVARCHAR(MAX) NOT NULL,
         [Role]            VARCHAR(100) NOT NULL,
         [PrimeiroAcesso]  BIT NOT NULL,
+        [Ativo]           BIT NOT NULL,
         [DataInclusao]    DATETIME2 NOT NULL CONSTRAINT DF_AuthUsers_Inclusao DEFAULT GETDATE(),
         [DataAlteracao]   DATETIME2 NULL,
     );
