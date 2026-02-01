@@ -2,6 +2,7 @@ IF OBJECT_ID('[dbo].[Empresa]', 'U') IS NULL
 BEGIN
     CREATE TABLE [dbo].[Empresa] (
         [Id]                BIGINT IDENTITY(1,1) NOT NULL,
+        [Ativo]             INT NOT NULL DEFAULT 1,
         [RazaoSocial]       VARCHAR(100) NOT NULL,
         [Fantasia]          VARCHAR(100) NOT NULL,
         [Cnpj]              VARCHAR(14) NOT NULL,
